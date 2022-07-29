@@ -1,0 +1,354 @@
+*{
+ font-family: 'Ubuntu', sans-serif;
+ margin: 0;
+ padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+/* navbar styling */
+
+.logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+
+}
+
+.navbar {
+  background: #0c0717;
+  opacity: 80%;
+}
+
+.menu {
+  background: none;
+  color: #ffffff;
+
+}
+
+.navlink {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+
+  font-size: 11px;
+  opacity: 1;
+ 
+}
+
+
+.navlink:hover {
+  color:#f51616;
+}
+
+
+/* home styling */
+
+#home {
+  background: #0c0717;
+}
+
+
+.title {
+  margin-top: 90px;
+  color: #bcc2bc;
+  font-weight: 200;
+  font-family: 'Ubuntu', sans-serif;
+  filter: drop-shadow(-2px 2px 10px white)
+}
+
+.title span {
+  color: #ffffff;
+
+  font-weight: 400;
+}
+
+
+.sub {
+  font-size: 13px;
+  color: #bcc2bc;
+
+}
+
+
+.profile {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 40px 3px #d6d6d6;
+  transition: transform .2s;
+
+  /* Animation */
+  margin: 20px;
+}
+
+
+
+.profile:hover {
+  transform: scale(1.08);
+ 
+
+}
+
+.description span {
+  color:#3b4af5;
+}
+
+.description {
+  color: #bcc2bc;
+  font-size: 12px;
+}
+
+
+.learn {
+  background: transparent;
+
+  color: #ffffff;
+  border: none;
+}
+
+
+
+.more {
+  text-decoration: none;
+  color: #ffffff;
+  border-bottom: .5px solid #bcc2bc;
+  font-size: 13px;
+}
+
+.more:hover {
+  color: #bcc2bc;
+  font-size: 15px;
+}
+
+.explore{
+    height: 405px;
+    width: 324px;
+    transform: scale(.8)
+    
+}
+
+/* about styling */
+
+#about {
+  background: #0c0717;
+}
+
+.heading {
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  border-top: 1px solid #ffffff;
+  width: 250px;
+  padding: 10px;
+
+}
+
+
+.heading span {
+  color: #bcc2bc;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+}
+
+.who {
+  color: #ffffff;
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.who span {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  background: #ff0000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff0000, #9932cc);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff0000, #9932cc);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+
+  background-clip: text;
+  color: transparent;
+
+}
+
+.aboutimg{
+     height: 405px;
+     width: 324px;
+   
+}
+
+.who2{
+  color: #ffffff;
+  font-size: 12px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* works styling */
+
+#works {
+  /* Created with https://www.css-gradient.com */
+  background: #0C0817;
+  background: -webkit-linear-gradient(left, #0C0817, #2A2A2A);
+  background: -moz-linear-gradient(left, #0C0817, #2A2A2A);
+  background: linear-gradient(to right, #0C0817, #2A2A2A);
+}
+
+
+
+.information {
+  color: #bcc2bc;
+  font-size: 17px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.information span {
+  color: #f51616;
+  font-weight: 700;
+}
+
+.reaction {
+  margin-top: 30px;
+  background: none;
+  width: 30px;
+}
+
+
+/*.heart {
+  transition: transform .2s;
+
+}
+
+.heart:hover {
+  opacity: .3;
+
+}
+*/
+
+
+/* tools styling */
+
+#tools {
+  background: #0c0717;
+
+}
+
+
+.app {
+  height: 30px;
+  width: 30px;
+  margin: 20px;
+  transition: transform .2s;
+}
+
+.app:hover {
+  transform: scale(1.1);
+
+}
+
+/* contact styling */
+
+#contact {
+  background: #0c0717;
+}
+
+
+
+.goimg {
+  height: 405px;
+  width: 324px;
+}
+
+
+
+.chat {
+  height: 468px;
+  width: 385px;
+}
+
+.illustrationimg {
+  height: 107px;
+  width: 320px;
+  margin-top: 60px;
+  transform: rotate(90deg);
+  margin-bottom: 70px;
+  
+}
+
+.lastinfo{
+  color:#ffffff;
+  font-size: 18px;
+  font-weight: 200;
+  
+}
+
+
+.lastinfo span{
+  color:#f5aa3b;
+}
+
+
+.sendbox {
+  width: 100px;
+ margin: auto;
+}
+
+.send {
+  color: #ffffff;
+  border: 1.5px solid #f5aa3b;
+  background: none;
+  padding: 8px;
+  margin-top: 150px;  
+  font-size:14px;
+  border-top-left-radius: 20px;
+  margin-left: 30px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 0 40px 3px #f5aa3b;
+  font-family: 'Ubuntu', sans-serif;
+  transition: transform .2s;
+}
+
+.send:hover {
+  color: #bcc2bc;
+  border: 1.5x solid #7b0ec9;
+  transform: scale(1.08);
+ 
+}
+
+
+.footer{
+  background:#17171f;
+  
+}
+
+.name{
+  color:#ffffff;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.instagram{
+  height: 30px;
+  width:30px;
+  padding: 5px;
+  
+}
+
+.telegram{
+height: 30px;
+  width:30px;
+  padding: 5px;
+}
+
+.copyright{
+  margin-top: 9px;
+  font-size: 13px;
+}
